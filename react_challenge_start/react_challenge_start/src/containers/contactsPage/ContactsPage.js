@@ -33,7 +33,7 @@ export const ContactsPage = () => {
   useEffect( () => {
     for (const contact of contacts) {
       if(name === contact.name) {
-        setDuplicate(true;)
+        setDuplicate(true);
       }
     }
   })
